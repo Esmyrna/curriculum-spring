@@ -2,7 +2,7 @@
 FROM openjdk:17
 
 # Copie o arquivo JAR para o contêiner
-COPY target/api-0.0.1-SNAPSHOT.jar /app/spring-app.jar
+COPY api/target/api-0.0.1-SNAPSHOT.jar /app/spring-app.jar
 
 # Defina o diretório de trabalho
 WORKDIR /app
